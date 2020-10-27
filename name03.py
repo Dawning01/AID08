@@ -11,7 +11,7 @@ file01=open("file01.txt","w")
 # print("写入了%d个字符"%n)
 
 #将列表逐个写入
-data=["嗯哼，你好棒棒哦","那各么里"]# \n \n
+data=["嗯哼，你好棒棒哦","那各"]# \n \n
 file01.writelines(data)
 print(file01)
 
